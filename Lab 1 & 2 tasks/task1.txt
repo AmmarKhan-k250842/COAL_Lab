@@ -1,0 +1,15 @@
+TITLE lab1 tasks
+
+INCLUDE Irvine32.inc
+
+.data
+studentname BYTE "Ammar Khan", 0
+rollno BYTE "0842", 0
+age BYTE 20
+cgpa REAL4 2.78
+
+.code
+main PROC
+exit
+main ENDP
+END main
