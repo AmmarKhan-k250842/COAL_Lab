@@ -1,0 +1,11 @@
+TITLE lab1 tasks
+INCLUDE Irvine32.inc
+
+.code
+main PROC
+	mov ebx, 10h
+	mov eax, 1010b
+	call DumpRegs
+	exit
+main ENDP
+END main
